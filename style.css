@@ -1,0 +1,186 @@
+/* Universal Section Start */
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1024px;
+    margin:50px auto;
+}
+/* Universal Section End  */
+
+
+
+                        /* First Section Start */
+.header{
+display: flex;
+margin-bottom:122px;
+
+}
+.incTextSize{
+    font-size: 44px;
+    border-left: 5px solid;
+    border-image:linear-gradient(#FF5959,tomato) ;
+    border-image-slice:1;
+}
+#left-side{
+    display: block;
+    width:100%;
+}
+
+.contents{
+    display: block;
+    width: 50%;
+}
+.contents h1{
+    color:#333333;
+    margin-bottom: 10px;
+}
+.btn{
+    display: inline-block;
+    padding:9px 10px;
+    background-color: #FF5959;
+    color:white;
+    border-radius: 5px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.person{
+    width: 50%;
+    margin: -10px 132px
+}
+#left-side{
+    width:80%;
+}
+
+ /* First Section End   */
+ 
+
+
+ /* Second Section Start  */
+.mission-area{
+    margin-bottom:130px;
+}
+.missionText{
+    text-align: center;
+    font-size: 44px;
+    color: #13103A;
+}
+.year{
+    color:orangered;
+}
+.missionWrapper{
+    display: flex;
+    justify-content: center;
+    grid-gap: 30px;
+}
+.elements{
+    flex: 1;   
+    border-radius: 10px;
+    box-shadow: 0 0 2px gray;
+    padding: 0 10px;
+}
+.elements img{
+    width:200px;
+}
+.mission-box{
+    background-color: #EDF5F6;
+}
+.vision-box{
+    background-color:#FFEEEE;
+}
+.goal-box{
+    background-color: #FFF4D6;
+}
+
+/* Second Section End */
+
+
+/* Third Section Start   */
+.talkAboutDevelopment{
+    font-size: 40px;
+    color:#333333;
+}
+.development{
+    display: flex;
+    margin-bottom: 100px;
+}
+.development-left{
+flex: 1;
+}
+.girls-coding{
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+.development-right{
+flex: 1;
+}
+
+/* Third Section End  */
+
+
+/* Fourth Setion Start  */
+
+.global-community{
+    display: flex;
+    margin-bottom: 100px;
+}
+.global-community-left{
+    flex: 1;
+}
+.global-community-right{
+    flex: 1;
+}
+.showing-projects{
+    width:60%;
+    margin-left:100px;
+}
+
+.talkAboutCommunity{
+    font-size: 40px;
+    color:#333333;
+}
+/* Fourth Section End  */
+
+
+/* Fifth Section Start  */
+.contact{
+    display: flex;
+    margin-bottom: 100px;
+}
+.contact-left{
+    flex: 1;
+}
+.contact-right{
+    flex: 1;
+    margin-right:50px;
+}
+.codingLife{
+    width:60%;
+    margin-left: 50px;
+}
+.orangered{
+    color:orangered;
+}
+.forContact{
+    font-size: 40px;
+}
+/* Fith Section End  */
+
+
+ /* Footer Section Start  */
+footer{
+    background-color: #0B0D17;
+    color:white;
+    padding:20px 100px;
+    text-align: center;
+}
+footer h1{
+    font-family: 'Pacifico', cursive;
+} 
+/* Footer Section End  */
+
+
